@@ -104,28 +104,28 @@ In dieser Arbeit wird eine Bibliothek für Mandatory Access Control (MAC) oder I
 ## Typen
 
 
-## Theorems for free! - P. Wadler (1989)
+### Theorems for free! - P. Wadler (1989)
 
 Freie Theoreme sind Aussagen über funktionale Programme, die allein vom Typ einer Funktion abgeleitet werden können. Diese Aussagen hängen im Wesentlichen mit der Tatsache zusammen, dass polymorphe Funktionen keine Werte des polymorphen Typen erfinden können. Da eine Funktion außerdem keine Seiteneffekte ausführen kann, erhält man vergleichsweise starke Aussagen über polymorphe Funktionen, ohne deren Implementierung zu kennen. Die Arbeit war sehr einflussreich und freie Theoreme werden in vielen Bereichen genutzt, um Aussagen über funktionale Programme zu beweisen.
 
 [Veröffentlichung](http://www.cs.sfu.ca/CourseCentral/831/burton/Notes/July14/free.pdf)
 
 
-## Uniqueness typing simplified - E. De Vries and R. Plasmeijer and D. M. Abrahamson (2007)
+### Uniqueness typing simplified - E. De Vries and R. Plasmeijer and D. M. Abrahamson (2007)
 
 In einem Typsystem mit _uniqueness types_ können bestimmte Variablen nur ein einziges Mal genutzt werden. Das Typsystem stellt dabei sicher, dass bestimmte Variablen tatsächlich nur einmal genutzt werden. Nutzt man eine solche Variablen in einem Programm mehrfach, liefert der Compiler einen Typfehler und das Programm lässt sich nicht übersetzen. Ein solches Typsystem kommt der in der funktionalen Programmiersprache Clean zum Einsatz, um Seiteneffekte in die Sprache zu integrieren.
 
 [Veröffentlichung](ftp://ftp.theochem.ru.nl/pub/SoftwEng.FunctLang/papers/2008/vrie08-IFL07-UniquenessTypingSimplified.pdf)
 
 
-## Liquidhaskell: Experience with refinement types in the real world - N. Vazou and E. L. Seidel and R. Jhala (2014)
+### Liquidhaskell: Experience with refinement types in the real world - N. Vazou and E. L. Seidel and R. Jhala (2014)
 
 Liquidhaskell ist eine Implementierung von _refinement types_ für Haskell. Ein Typsystem mit _refinement types_ erlaubt es, sehr viel stärkere Aussagen über Programme zu treffen als es mit Typsystemen wie dem von Haskell möglich ist. Aus diesem Grund sind _refinement types_ gut geeignet, um sicherheitskritische Anwendungen zu entwickeln. Die Arbeit stellt die Haskell-Bibliothek an einer Reihe von Beispielen vor und zeigt, welche Arten von Garantieren, man mit Hilfe dieser Typen über Programme erhält.
 
 [Veröffentlichung](http://goto.ucsd.edu/~nvazou/real_world_liquid.pdf)
 
 
-## Propositions as types - P. Wadler (2015)
+### Propositions as types - P. Wadler (2015)
 
 In dieser Arbeit geht es um den Zusammenhang zwischen Logik und den Typen in einer funktionalen Programmiersprache. Die Arbeit ist relativ verständlich geschrieben und erfordert wenig Vorwissen, da es sich nicht um eine wissenschaftliche Veröffentlichung sondern um eine Art Zeitschriftenartikel handelt. Der Artikel ist in den Communications of the ACM erschienen, einer monatlichen Serie von Artikeln der amerikanischen Gesellschaft für Informatik. Daher adressiert der Artikel Personen aus allen Bereichen der Informatik. Das Thema an sich ist aber sehr abstrakt und beleuchtet einen sehr grundlegenden Zusammenhang zwischen zwei formalen Systemen.
 
