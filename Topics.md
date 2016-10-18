@@ -98,6 +98,13 @@ Die Arbeit führt die Datenstruktur _binonmial heap_ ein und ist explizit für L
 [Veröffentlichung](https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0ahUKEwj_rqGuqd3PAhWE2CwKHTeEBjcQFgghMAE&url=http%3A%2F%2Fwww.cs.ox.ac.uk%2Fralf.hinze%2Fpublications%2FBinomialHeaps.ps.gz&usg=AFQjCNEZRErn829vcyom1zPUR822jDGwlA&bvm=bv.135974163,d.bGg)
 
 
+### Inductive graphs and functional graph algorithms - M. Erwig (2001)
+
+Graphen lassen sich in funktionalen Programmiersprachen nicht sehr gut abbilden, da Werte in funktionalen Sprachen immer auf Wertgleichheit getesten werden und nicht auf Referenzgleichheit. Daher lassen sich die klassischen Implementierungen von Graphalgorithmen nicht elegant in eine funktionale Programmiersprache übersetzen. Diese Arbeit stellt stellt eine Modellierung von Graphen vor, die sich sehr viel besser in das funktionale Programmierparadigmum passt.
+
+[Veröffentlichung](https://www.researchgate.net/profile/Martin_Erwig/publication/2364482_Inductive_Graphs_and_Functional_Graph_Algorithms/links/5439ae4f0cf2d6698be167f3.pdf)
+
+
 ## Testen
 
 
