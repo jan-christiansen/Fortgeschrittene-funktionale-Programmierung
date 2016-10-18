@@ -33,6 +33,16 @@ In dieser Arbeit geht es um den Zusammenhang zwischen Logik und den Typen in ein
 [Veröffentlichung](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.673.269&rep=rep1&type=pdf)
 
 
+## Compiler-Optimierungen
+
+
+### A short cut to deforestation - A. Gill and J. Launchbury and S. L. Peyton Jones (1993)
+
+Bei der Programmierung in einer funktionalen Sprache werden sehr viele Zwischendatenstrukturen erzeugt. Wenn wir zum Beispiel zuerst die Funktion _map_ und im Anschluss die Funktion _filter_ auf eine Liste anwenden, wird durch _map_ eine Liste erzeugt, die durch _filter_ wieder konsumiert wird. Compiler-Optimierungen, die die Erzeugung solcher Zwischendatenstrukturen verhindern, bezeichnet man als _deforestation_. In dieser Arbeit wird einer der ersten Ansätze für _deforestation_ präsentiert, der auch heute noch Verwendung findet.
+
+[Veröffentlichung](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.224.4460&rep=rep1&type=pdf)
+
+
 ## Abstraktionen
 
 
@@ -62,6 +72,13 @@ In dieser Arbeit werden _monad transformer_ vorgestellt. Diese erlauben es, mehr
 Arrows sind, ähnlich wie Monaden ein allgemeines Konzept zur Abstraktion. Die Arbeit stellt die Idee der _arrows_ so wie praktische Anwendungen dieser Abstraktion vor. Die Arbeit ist vergleichsweise lang, dafür setzt sie aber nur ein geringes Vorwissen voraus, da es sich um den Inhalt eine vorgeschrittenen Vorlesung handelt.
 
 [Veröffentlichung](http://www.academia.edu/download/30725172/Varmo_Vene_Advanced_Functional_Programming_5_co.pdf#page=80)
+
+
+### Applicative programming with effects - C. McBride and R. Paterson (2008)
+
+Diese Arbeit stellt die Typklasse Applicative vor. Diese Typklasse stellt ähnlich wie eine Monade eine Abstrakion verschiedener Strukturen dar. Die Typklassen Monad und Applicative sind sehr eng miteinander verwandt. Einige Strukturen erfüllen die Anforderung der Typklasse Applicative, sind aber keine Monade. Die Entwicklung der Typklasse Applicative wurde vor allem durch Entwicklungen im Bereich der Parserkombinatoren vorangetrieben, erwies sich aber als sehr viel grundlegender.
+
+[Arbeit](http://staff.city.ac.uk/~ross/papers/Applicative.pdf)
 
 
 ### All Sorts of Permutations - J. Christiansen and N. Danilenko and S. Dylus (2016)
@@ -133,6 +150,13 @@ In dieser Arbeit wird eine Bibliothek für Mandatory Access Control (MAC) oder I
 Diese Arbeit stellt die Idee der Parserkombinatoren vor. Ein Parser ist eine Funktion, die eine Zeichenkette analysiert, zerlegt und in einen strukturierten Datentypen umwandelt. Parserkombinatoren bieten die Möglichkeit einen solchen Parser einfach zu definieren, indem die zur Verfügung gestellten Kombinatoren verwendet werden. Die Idee der Parserkombinatoren wurde inzwischen in einer Vielzahl von Programmiersprachen implementiert, so gibt es Bibliotheken für Parserkombinatoren zum Beispiel in Java, C#, Ruby, C++, Python und JavaScript.
 
 [Veröffentlichung](http://www.cs.nott.ac.uk/~pszgmh/pearl.pdf)
+
+
+### Probabilistic functional programming in Haskell - M. Erwig and S. Kollmansberger (2006)
+
+Probabilistische Programmiersprachen erlauben es, einfach die Berechnung von Wahrscheinlichkeiten zu modellieren. Solche Programmiersprachen werden zum Beispiel im Bereich der künstlichen Intelligenz zur Modellierung von neuronalen Netzen genutzt. Die Arbeit demonstriert, wie man in Haskell eine Bibliothek zur probabilistischen Programmierung einfach mit Hilfe einer monadischen Abstraktion implementieren kann.
+
+[Veröffentlichung](http://icerote.net/doc/library/programming/fp/Probabilistic%20functional%20programming%20in%20Haskell.pdf)
 
 
 ## Web-Entwicklung
