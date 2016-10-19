@@ -48,14 +48,14 @@ Bei der Programmierung in einer funktionalen Sprache werden sehr viele Zwischend
 
 ### A tutorial on the universality and expressiveness of fold - G. Hutton (1999)
 
-Diese Arbeit diskutiert die Funktion fold auf einer Liste und welche Art von Funktionen man mit Hilfe der Funktion fold definieren kann. Grundsätzlich gibt es bestimmte Arten von Rekursion, die sich nicht durch ein fold ausdrücken lassen. Es zeigt sich aber, dass sich in einer funktionalen Programmiersprache mehr Funktionen mit Hilfe von fold ausdrücken lassen, als man auf den ersten Blick vermuten würde.
+Diese Arbeit diskutiert die Funktion _fold_ auf einer Liste und welche Art von Funktionen man mit Hilfe der Funktion _fold_ definieren kann. Grundsätzlich gibt es bestimmte Arten von Rekursion, die sich nicht durch ein _fold_ ausdrücken lassen. Es zeigt sich aber, dass sich in einer funktionalen Programmiersprache mehr Funktionen mit Hilfe von _fold_ ausdrücken lassen, als man auf den ersten Blick vermuten würde.
 
 [Veröffentlichung](http://eprints.nottingham.ac.uk/224/1/fold.pdf)
 
 
 ### The under-appreciated unfold -J. Gibbons and G. Jones (1998)
 
-Neben der Funktion fold gibt es noch die Funktion unfold, die eine Art Gegenspieler zur Funktion fold darstellt. Während fold eine Liste konsumiert, ist es mit der Funktion unfold möglich, eine Liste zu generieren. Während die Idee eines Folds inzwischen auch in anderen Programmiersprachen zum Einsatz kommt, ist die Funktion unfold auch in Haskell immer noch vergleichsweise selten in Gebrauch. Die Arbeit stellt eine Implementierung einer Breitensuche auf einem Baum mit Hilfe der Funktion unfold vor.
+Neben der Funktion _fold_ gibt es noch die Funktion _unfold_, die eine Art Gegenspieler zur Funktion _fold_ darstellt. Während _fold_ eine Liste konsumiert, ist es mit der Funktion _unfold_ möglich, eine Liste zu generieren. Während die Idee eines Folds inzwischen auch in anderen Programmiersprachen zum Einsatz kommt, ist die Funktion _unfold_ auch in Haskell immer noch vergleichsweise selten in Gebrauch. Die Arbeit stellt eine Implementierung einer Breitensuche auf einem Baum mit Hilfe der Funktion _unfold_ vor.
 
 [Veröffentlichung](http://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/unfold.ps.gz)
 
@@ -76,14 +76,14 @@ Arrows sind, ähnlich wie Monaden ein allgemeines Konzept zur Abstraktion. Die A
 
 ### Applicative programming with effects - C. McBride and R. Paterson (2008)
 
-Diese Arbeit stellt die Typklasse Applicative vor. Diese Typklasse stellt ähnlich wie eine Monade eine Abstrakion verschiedener Strukturen dar. Die Typklassen Monad und Applicative sind sehr eng miteinander verwandt. Einige Strukturen erfüllen die Anforderung der Typklasse Applicative, sind aber keine Monade. Die Entwicklung der Typklasse Applicative wurde vor allem durch Entwicklungen im Bereich der Parserkombinatoren vorangetrieben, erwies sich aber als sehr viel grundlegender.
+Diese Arbeit stellt die Typklasse _Applicative_ vor. Diese Typklasse stellt ähnlich wie eine Monade eine Abstraktion verschiedener Strukturen dar. Die Typklassen _Monad_ und _Applicative_ sind sehr eng miteinander verwandt. Einige Strukturen erfüllen die Anforderung der Typklasse _Applicative_, sind aber keine Monade. Die Entwicklung der Typklasse _Applicative_ wurde vor allem durch Entwicklungen im Bereich der Parserkombinatoren vorangetrieben, erwies sich aber als sehr viel grundlegender.
 
 [Arbeit](http://staff.city.ac.uk/~ross/papers/Applicative.pdf)
 
 
 ### All Sorts of Permutations - J. Christiansen and N. Danilenko and S. Dylus (2016)
 
-Diese Arbeit demonstriert einen Zusammenhang zwischen Sortieren und Permutieren in Haskell. Sortieren beschreibt dabei die Aufgabe mit Hilfe einer Vergleichsfunktion eine Liste von Werten in die richtige Reihenfolge zu bringen. Beim Permutieren wird für eine Liste jede mögliche Reihenfolge der Liste generiert. Der Zusammenhang basiert darauf, dass man zwei verschiedene Instanzen einer monadischen Funktion betrachtet. Dieser Zusammenhang ist nicht auf Sortieren und Permutieren beschränkt, sondern lässt sich auch auf andere Funktionen anwenden, zum Beispiel auf die Funktion filter.
+Diese Arbeit demonstriert einen Zusammenhang zwischen Sortieren und Permutieren in Haskell. Sortieren beschreibt dabei die Aufgabe mit Hilfe einer Vergleichsfunktion eine Liste von Werten in die richtige Reihenfolge zu bringen. Beim Permutieren wird für eine Liste jede mögliche Reihenfolge der Liste generiert. Der Zusammenhang basiert darauf, dass man zwei verschiedene Instanzen einer monadischen Funktion betrachtet. Dieser Zusammenhang ist nicht auf Sortieren und Permutieren beschränkt, sondern lässt sich auch auf andere Funktionen anwenden, zum Beispiel auf die Funktion _filter_.
 
 [Veröffentlichung](http://informatik.uni-kiel.de/~sad/icfp2016-preprint.pdf)
 
@@ -100,7 +100,7 @@ Die Arbeit führt die Datenstruktur _binonmial heap_ ein und ist explizit für L
 
 ### Inductive graphs and functional graph algorithms - M. Erwig (2001)
 
-Graphen lassen sich in funktionalen Programmiersprachen nicht sehr gut abbilden, da Werte in funktionalen Sprachen immer auf Wertgleichheit getesten werden und nicht auf Referenzgleichheit. Daher lassen sich die klassischen Implementierungen von Graphalgorithmen nicht elegant in eine funktionale Programmiersprache übersetzen. Diese Arbeit stellt stellt eine Modellierung von Graphen vor, die sich sehr viel besser in das funktionale Programmierparadigmum passt.
+Graphen lassen sich in funktionalen Programmiersprachen nicht sehr gut abbilden, da Werte in funktionalen Sprachen immer auf Wertgleichheit getestet werden und nicht auf Referenzgleichheit. Daher lassen sich die klassischen Implementierungen von Graphalgorithmen nicht elegant in eine funktionale Programmiersprache übersetzen. Diese Arbeit stellt stellt eine Modellierung von Graphen vor, die sich sehr viel besser in das funktionale Programmierparadigma passt.
 
 [Veröffentlichung](https://www.researchgate.net/profile/Martin_Erwig/publication/2364482_Inductive_Graphs_and_Functional_Graph_Algorithms/links/5439ae4f0cf2d6698be167f3.pdf)
 
@@ -110,14 +110,14 @@ Graphen lassen sich in funktionalen Programmiersprachen nicht sehr gut abbilden,
 
 ### QuickCheck: a lightweight tool for random testing of Haskell programs - K. Claessen and J. Hughes (2011)
 
-Diese Arbeit stellt eine Bibliothek mit dem Namen QuickCheck und das Konzept des _property-based testing_ vor. Während bei einem Unit-Test normalerweise eine Eigenschaft für ein paar Beispieleingaben getestet wird, wird beim _property-based testing_ eine Eigenschaft sehr viele, zufällig generierte Eingaben gestestet. Auf diese Weise kann eine Funktion ohne großen Aufwand für eine Vielzahl von Testfällen getestet werden. Die Erzeugung der Testeingaben wird durch die Struktur des Typs der Eingaben geleitet. Die Idee des _property-based testing_ hat inzwischen Einzug in fast alle stark getypten Programmiersprachen gehalten. So gibt es reimplementieren des QuickCheck-Ansatzen in Programmiersprachen wie Scala, Java, Swift und Objective-C.
+Diese Arbeit stellt eine Bibliothek mit dem Namen QuickCheck und das Konzept des _property-based testing_ vor. Während bei einem Unit-Test normalerweise eine Eigenschaft für ein paar Beispieleingaben getestet wird, wird beim _property-based testing_ eine Eigenschaft sehr viele, zufällig generierte Eingaben getestet. Auf diese Weise kann eine Funktion ohne großen Aufwand für eine Vielzahl von Testfällen getestet werden. Die Erzeugung der Testeingaben wird durch die Struktur des Typs der Eingaben geleitet. Die Idee des _property-based testing_ hat inzwischen Einzug in fast alle stark getypten Programmiersprachen gehalten. So gibt es reimplementieren des QuickCheck-Ansatzes in Programmiersprachen wie Scala, Java, Swift und Objective-C.
 
 [Veröffentlichung](http://www.cs.tufts.edu/~nr/cs257/archive/john-hughes/quick.pdf)
 
 
 ### Debugging Haskell by Observing Intermediate Data Structures - A. Gill (2000)
 
-Da funktionale Programme sehr viel abstrakter sind als imperative Programme, lassen sich Konzepte zum Debuggen von Programmen nicht einfach von imperativen auf funktionale Programmiersprachen übertragen. Diese Arbeit stellt ein Konzept zum Debuggen von funktionalen Programmen vor, das sich als einfache Biliothek implementieren lässt. Das heißt, es ist nicht notwendig, den Compiler abzuändern, sondern der Debugger steht durch eine einfache Import-Anweisung zur Verfügung. Die vorgestellte Form des Debuggings eignet sich besonders gut, um das Verhalten der Faulheit zu obseriveren.
+Da funktionale Programme sehr viel abstrakter sind als imperative Programme, lassen sich Konzepte zum Debuggen von Programmen nicht einfach von imperativen auf funktionale Programmiersprachen übertragen. Diese Arbeit stellt ein Konzept zum Debuggen von funktionalen Programmen vor, das sich als einfache Bibliothek implementieren lässt. Das heißt, es ist nicht notwendig, den Compiler abzuändern, sondern der Debugger steht durch eine einfache Import-Anweisung zur Verfügung. Die vorgestellte Form des Debuggings eignet sich besonders gut, um das Verhalten der Faulheit zu observieren.
 
 [Veröffentlichung](http://www.ittc.ku.edu/~andygill/papers/Hood00.pdf)
 
@@ -144,7 +144,7 @@ Diese Arbeit stellt das Konzept des Software Transactional Memory (STM) vor. Die
 
 ### Two can keep a secret, if one of them uses Haskell - A. Russo (2015)
 
-In dieser Arbeit wird eine Bibliothek für Mandatory Access Control (MAC) oder Information-Flow Control (IFC) vorgestellt. Während der erste Begriff aus dem Bereich der Betriebssysteme stammt, kommt der zweite Begriff aus dem Bereich der Programmiersprachen. Die Arbeit zeigt, wie man mit Hilfe des Typsystems von Haskell eine Bibliothek entwerfen kann, die nur eingeschränkten Zugriff auf gewisse Informationen erlaubt.
+In dieser Arbeit wird eine Bibliothek für _Mandatory Access Control (MAC)_ oder _Information-Flow Control (IFC)_ vorgestellt. Während der erste Begriff aus dem Bereich der Betriebssysteme stammt, kommt der zweite Begriff aus dem Bereich der Programmiersprachen. Die Arbeit zeigt, wie man mit Hilfe des Typsystems von Haskell eine Bibliothek entwerfen kann, die nur eingeschränkten Zugriff auf gewisse Informationen erlaubt.
 
 [Veröffentlichung](https://pdfs.semanticscholar.org/4be7/7d8e77c95deac350e757220c45c051ace4f5.pdf)
 
@@ -178,13 +178,13 @@ Servant ist eine Haskell-Bibliothek zur Entwicklung von Http-Servern. Die Biblio
 
 ### Vorstellung der Programmiersprache Elm
 
-Die Programmiersprache Elm ist im Rahmen einer Masterarbeit entstanden und ist stark an Haskell angelegt. Die Sprache ist als Alternative für die Entwicklung des Frontends von Webanwendungen gedacht. Die Sprache setzte ursprünglich die Konzepte der funktional reaktiven Programmierung ein. Da es keine gut lesbare Veröffentlichung zu Elm gibt, muss als Bestandteil dieses Themas eine Literaturrecherche betrieben werden, um nutbare Quellen zu finden. Neben der Einordnung der Sprache in den Bereich der Webentwicklung sollte ein Vergleich zu Haskell gezogen werden.
+Die Programmiersprache Elm ist im Rahmen einer Masterarbeit entstanden und ist stark an Haskell angelegt. Die Sprache ist als Alternative für die Entwicklung des Frontends von Webanwendungen gedacht. Die Sprache setzte ursprünglich die Konzepte der funktional reaktiven Programmierung ein. Da es keine gut lesbare Veröffentlichung zu Elm gibt, muss als Bestandteil dieses Themas eine Literaturrecherche betrieben werden, um nutzbare Quellen zu finden. Neben der Einordnung der Sprache in den Bereich der Webentwicklung sollte ein Vergleich zu Haskell gezogen werden.
 
 [Veröffentlichung](http://elm-lang.org)
 
 
 ### Vorstellung der Programmiersprache PureScript
 
-Die Programmiersprache PureScript ist ebenfalls sehr eng an die Programmiersprache Haskell angelegt. Die Sprache wird nach JavaScript übersetzt und ist als Alternative für JavaScript gedacht. Ein Ziel der Entwicklung war ein Compiler, der gut lesbaren JavaScript-Code erzeugt. Da es keine Veröffentlichung zu PureScript gibt, muss als Bestandteil dieses Themas eine Literaturrecherche betrieben werden, um nutbare Quellen zu finden. Neben der Einordnung der Sprache in den Bereich der Webentwicklung sollte ein Vergleich zu Haskell gezogen werden.
+Die Programmiersprache PureScript ist ebenfalls sehr eng an die Programmiersprache Haskell angelegt. Die Sprache wird nach JavaScript übersetzt und ist als Alternative für JavaScript gedacht. Ein Ziel der Entwicklung war ein Compiler, der gut lesbaren JavaScript-Code erzeugt. Da es keine Veröffentlichung zu PureScript gibt, muss als Bestandteil dieses Themas eine Literaturrecherche betrieben werden, um nutzbare Quellen zu finden. Neben der Einordnung der Sprache in den Bereich der Webentwicklung sollte ein Vergleich zu Haskell gezogen werden.
 
 [Veröffentlichung](http://www.purescript.org)
