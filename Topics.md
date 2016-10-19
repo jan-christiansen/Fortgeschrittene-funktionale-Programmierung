@@ -21,7 +21,7 @@ In einem Typsystem mit _uniqueness types_ können bestimmte Variablen nur ein ei
 
 ### Liquidhaskell: Experience with refinement types in the real world - N. Vazou and E. L. Seidel and R. Jhala (2014)
 
-Liquidhaskell ist eine Implementierung von _refinement types_ für Haskell. Ein Typsystem mit _refinement types_ erlaubt es, sehr viel stärkere Aussagen über Programme zu treffen als es mit Typsystemen wie dem von Haskell möglich ist. Aus diesem Grund sind _refinement types_ gut geeignet, um sicherheitskritische Anwendungen zu entwickeln. Die Arbeit stellt die Haskell-Bibliothek an einer Reihe von Beispielen vor und zeigt, welche Arten von Garantieren, man mit Hilfe dieser Typen über Programme erhält.
+Liquidhaskell ist eine Implementierung von _refinement types_ für Haskell. Ein Typsystem mit _refinement types_ erlaubt es, sehr viel stärkere Aussagen über Programme zu treffen als es mit Typsystemen wie dem von Haskell möglich ist. So ist es zum Beispiel möglich im Typen die Länge einer Liste auszudrücken. Damit erhält man zum Beispiel die Garantie, dass man nie versucht, auf einen Index außerhalb einer Liste zuzugreifen. Typsysteme wie _refinement types_ eignen sich gut, um sicherheitskritische Anwendungen zu entwickeln. Die Arbeit stellt die Haskell-Bibliothek an einer Reihe von Beispielen vor und zeigt, welche Arten von Garantieren, man mit Hilfe dieser Typen über Programme erhält.
 
 [Veröffentlichung](http://goto.ucsd.edu/~nvazou/real_world_liquid.pdf)
 
