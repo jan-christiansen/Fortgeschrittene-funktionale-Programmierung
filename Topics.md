@@ -74,6 +74,13 @@ Arrows sind, ähnlich wie Monaden ein allgemeines Konzept zur Abstraktion. Die A
 [Veröffentlichung](http://www.academia.edu/download/30725172/Varmo_Vene_Advanced_Functional_Programming_5_co.pdf#page=80)
 
 
+### Generics for the masses - R. Hinze (2004)
+
+Diese Arbeit stellt einen Ansatz zur generischen Programmierung in Haskell vor. Die generische Programmierung erlaubt es, eine einzelne Funktion zu definieren, die auf einer Vielzahl von Typen genutzt werden kann. Im Unterschied zu einer polymorphen Funktion verhält sich eine generische Funktion nicht für alle Typen gleich, sondern trifft Entscheidungen abhängig von der Struktur des Typen. Typische Beispiele für generische Funktionen sind zum Beispiel die strukturelle Gleichheit von Werten oder die Funktion _show_.
+
+[Veröffentlichung](http://www.cs.ox.ac.uk/ralf.hinze/publications/ICFP04.pdf)
+
+
 ### Applicative programming with effects - C. McBride and R. Paterson (2008)
 
 Diese Arbeit stellt die Typklasse _Applicative_ vor. Diese Typklasse stellt ähnlich wie eine Monade eine Abstraktion verschiedener Strukturen dar. Die Typklassen _Monad_ und _Applicative_ sind sehr eng miteinander verwandt. Einige Strukturen erfüllen die Anforderung der Typklasse _Applicative_, sind aber keine Monade. Die Entwicklung der Typklasse _Applicative_ wurde vor allem durch Entwicklungen im Bereich der Parserkombinatoren vorangetrieben, erwies sich aber als sehr viel grundlegender.
