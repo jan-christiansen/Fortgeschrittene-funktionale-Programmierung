@@ -187,11 +187,21 @@ Servant ist eine Haskell-Bibliothek zur Entwicklung von Http-Servern. Die Biblio
 
 Die Programmiersprache Elm ist im Rahmen einer Masterarbeit entstanden und ist stark an Haskell angelegt. Die Sprache ist als Alternative für die Entwicklung des Frontends von Webanwendungen gedacht. Die Sprache setzte ursprünglich die Konzepte der funktional reaktiven Programmierung ein. Da es keine gut lesbare Veröffentlichung zu Elm gibt, muss als Bestandteil dieses Themas eine Literaturrecherche betrieben werden, um nutzbare Quellen zu finden. Neben der Einordnung der Sprache in den Bereich der Webentwicklung sollte ein Vergleich zu Haskell gezogen werden.
 
-[Veröffentlichung](http://elm-lang.org)
+[Internetseite](http://elm-lang.org)
 
 
 ### Vorstellung der Programmiersprache PureScript
 
 Die Programmiersprache PureScript ist ebenfalls sehr eng an die Programmiersprache Haskell angelegt. Die Sprache wird nach JavaScript übersetzt und ist als Alternative für JavaScript gedacht. Ein Ziel der Entwicklung war ein Compiler, der gut lesbaren JavaScript-Code erzeugt. Da es keine Veröffentlichung zu PureScript gibt, muss als Bestandteil dieses Themas eine Literaturrecherche betrieben werden, um nutzbare Quellen zu finden. Neben der Einordnung der Sprache in den Bereich der Webentwicklung sollte ein Vergleich zu Haskell gezogen werden.
 
-[Veröffentlichung](http://www.purescript.org)
+[Internetseite](http://www.purescript.org)
+
+
+## Weitere Programmiersprachen
+
+
+## Vorstellung der Programmiersprache Coq
+
+Coq ist eine funktionale Programmiersprache, die außerdem einen interaktiven Beweisassistenten zur Verfügung stellt, um Aussagen über die Programme zu beweisen. Das heißt, man kann zum Beispiel funktionale Programme in Coq schreiben und dann Aussagen über diese Programme beweisen. Ein Beweis besteht dabei aus einer Reihe von Schritten, die man ebenfalls in die Programmdatei schreibt. Der Compiler überprüft dann beim Übersetzen des Programms, ob die Schritte des Beweises richtig sind. Man kann mit Hilfe von Coq aber nicht nur Aussagen über funktionale Programme beweisen. So wurde zum Beispiel mit Hilfe von Coq die Korrektheit eines C-Compilers bewiesen (http://compcert.inria.fr), der zum Beispiel bei der Entwicklung von hoch-sicherheitskritischen Systemen wie Atomkraftwerken zum Einsatz kommt. Die Korrektheit des C-Compilers stellt sicher, dass der C-Compiler bei der Übersetzung und Optimierung des Codes die Bedeutung des Programms nicht verändert.
+
+[Internetseite](https://coq.inria.fr)
