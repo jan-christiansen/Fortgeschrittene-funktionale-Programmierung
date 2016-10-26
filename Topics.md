@@ -200,7 +200,7 @@ Die Programmiersprache PureScript ist ebenfalls sehr eng an die Programmiersprac
 ## Weitere Programmiersprachen
 
 
-## Vorstellung der Programmiersprache Coq
+### Vorstellung der Programmiersprache Coq
 
 Coq ist eine funktionale Programmiersprache, die außerdem einen interaktiven Beweisassistenten zur Verfügung stellt, um Aussagen über die Programme zu beweisen. Das heißt, man kann zum Beispiel funktionale Programme in Coq schreiben und dann Aussagen über diese Programme beweisen. Ein Beweis besteht dabei aus einer Reihe von Schritten, die man ebenfalls in die Programmdatei schreibt. Der Compiler überprüft dann beim Übersetzen des Programms, ob die Schritte des Beweises richtig sind. Man kann mit Hilfe von Coq aber nicht nur Aussagen über funktionale Programme beweisen. So wurde zum Beispiel mit Hilfe von Coq die Korrektheit eines C-Compilers bewiesen (http://compcert.inria.fr), der zum Beispiel bei der Entwicklung von hoch-sicherheitskritischen Systemen wie Atomkraftwerken zum Einsatz kommt. Die Korrektheit des C-Compilers stellt sicher, dass der C-Compiler bei der Übersetzung und Optimierung des Codes die Bedeutung des Programms nicht verändert.
 
