@@ -129,7 +129,14 @@ Da funktionale Programme sehr viel abstrakter sind als imperative Programme, las
 [Veröffentlichung](http://www.ittc.ku.edu/~andygill/papers/Hood00.pdf)
 
 
-## Nebenläufigkeit
+## Nebenläufigkeit/Ausnahmebehandlung/Foreign Function Interface
+
+
+### Tackling the awkward squad - S. P. Jones (2010)
+
+Die Arbeit zeigt, wie einige Konzepte der imperativen Programmierung in Haskell integriert werden. Zuerst wird illustriert, wie die IO-Monade implementiert und wie diese formal modelliert werden kann. Daneben werden noch Konzepte wie veränderbare Speicherzellen, Nebenläufigkeit, Ausnahmebehandlung und das Foreign Function Interface (FFI) vorgestellt. Das FFI stellt ein Konzept zur Verfügung, um andere Programmiersprachen, zum Beispiel C an Haskell anzubinden. Es handelt sich bei der Arbeit um Lecture Notes, die Simon Peyton Jones bereits im Jahr 2000 bei einer Summer School verwendet hat. Das Dokument wurde seitdem mehrfach überarbeitet und an den aktuellen Stand angepasst.
+
+[Veröffentlichung](http://research.microsoft.com/en-us/um/people/simonpj/Papers/marktoberdorf/mark.pdf.gz)
 
 
 ### Concurrent haskell - S. P. Jones and A. Gordon and S. Finne (1996)
