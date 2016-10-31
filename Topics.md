@@ -100,7 +100,7 @@ Diese Arbeit demonstriert einen Zusammenhang zwischen Sortieren und Permutieren 
 
 ### Explaining binomial heaps - R. Hinze (1999)
 
-Die Arbeit führt die Datenstruktur _binonmial heap_ ein und ist explizit für Leser mit grundlegenden Haskell-Kenntnissen geschrieben. Die Datenstruktur fasst ähnlich wie eine Liste mehrere Werte zusammen und erlaubt effizientes Einfügen von neuen Elementen und Finden und Entfernen des minimalen Elementes im Heap. Ein binomial Heap eignet sich zum Beispiel zur Implementierung einer Prioritäten-Warteschlange.
+Die Arbeit führt die Datenstruktur _binomial heap_ ein und ist explizit für Leser mit grundlegenden Haskell-Kenntnissen geschrieben. Die Datenstruktur fasst ähnlich wie eine Liste mehrere Werte zusammen und erlaubt effizientes Einfügen von neuen Elementen und Finden und Entfernen des minimalen Elementes im Heap. Ein binomial Heap eignet sich zum Beispiel zur Implementierung einer Prioritäten-Warteschlange.
 
 [Veröffentlichung](https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0ahUKEwj_rqGuqd3PAhWE2CwKHTeEBjcQFgghMAE&url=http%3A%2F%2Fwww.cs.ox.ac.uk%2Fralf.hinze%2Fpublications%2FBinomialHeaps.ps.gz&usg=AFQjCNEZRErn829vcyom1zPUR822jDGwlA&bvm=bv.135974163,d.bGg)
 
