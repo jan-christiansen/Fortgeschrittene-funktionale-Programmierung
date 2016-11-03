@@ -16,7 +16,7 @@ Freie Theoreme sind Aussagen über funktionale Programme, die allein vom Typ ein
 
 In einem Typsystem mit _uniqueness types_ können bestimmte Variablen nur ein einziges Mal genutzt werden. Das Typsystem stellt dabei sicher, dass bestimmte Variablen tatsächlich nur einmal genutzt werden. Nutzt man eine solche Variablen in einem Programm mehrfach, liefert der Compiler einen Typfehler und das Programm lässt sich nicht übersetzen. Ein solches Typsystem kommt der in der funktionalen Programmiersprache Clean zum Einsatz, um Seiteneffekte in die Sprache zu integrieren.
 
-[Veröffentlichung](ftp://ftp.theochem.ru.nl/pub/SoftwEng.FunctLang/papers/2008/vrie08-IFL07-UniquenessTypingSimplified.pdf)
+[Veröffentlichung](https://pdfs.semanticscholar.org/42e7/e8c61a43578cafb8c9ed939d948f09c5e393.pdf)
 
 
 ### Liquidhaskell: Experience with refinement types in the real world - N. Vazou and E. L. Seidel and R. Jhala (2014)
@@ -69,9 +69,9 @@ In dieser Arbeit werden _monad transformer_ vorgestellt. Diese erlauben es, mehr
 
 ### Programming with arrows - J. Hughes (2004)
 
-Arrows sind, ähnlich wie Monaden ein allgemeines Konzept zur Abstraktion. Die Arbeit stellt die Idee der _arrows_ so wie praktische Anwendungen dieser Abstraktion vor. Die Arbeit ist vergleichsweise lang, dafür setzt sie aber nur ein geringes Vorwissen voraus, da es sich um den Inhalt eine vorgeschrittenen Vorlesung handelt.
+Arrows sind, ähnlich wie Monaden ein allgemeines Konzept zur Abstraktion. Die Arbeit stellt die Idee der _arrows_ so wie praktische Anwendungen dieser Abstraktion vor. Die Arbeit ist vergleichsweise lang, dafür setzt sie aber nur ein geringes Vorwissen voraus, da es sich um den Inhalt einer vorgeschrittenen Vorlesung handelt.
 
-[Veröffentlichung](http://www.academia.edu/download/30725172/Varmo_Vene_Advanced_Functional_Programming_5_co.pdf#page=80)
+[Veröffentlichung](https://karczmarczuk.users.greyc.fr/TEACH/Doc/afp-arrows.pdf)
 
 
 ### Generics for the masses - R. Hinze (2004)
@@ -85,7 +85,7 @@ Diese Arbeit stellt einen Ansatz zur generischen Programmierung in Haskell vor. 
 
 Diese Arbeit stellt die Typklasse _Applicative_ vor. Diese Typklasse stellt ähnlich wie eine Monade eine Abstraktion verschiedener Strukturen dar. Die Typklassen _Monad_ und _Applicative_ sind sehr eng miteinander verwandt. Einige Strukturen erfüllen die Anforderung der Typklasse _Applicative_, sind aber keine Monade. Die Entwicklung der Typklasse _Applicative_ wurde vor allem durch Entwicklungen im Bereich der Parserkombinatoren vorangetrieben, erwies sich aber als sehr viel grundlegender.
 
-[Arbeit](http://staff.city.ac.uk/~ross/papers/Applicative.pdf)
+[Veröffentlichung](http://staff.city.ac.uk/~ross/papers/Applicative.pdf)
 
 
 ### All Sorts of Permutations - J. Christiansen and N. Danilenko and S. Dylus (2016)
