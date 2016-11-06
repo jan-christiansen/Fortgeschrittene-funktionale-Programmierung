@@ -115,7 +115,7 @@ Graphen lassen sich in funktionalen Programmiersprachen nicht sehr gut abbilden,
 ## Testen
 
 
-### QuickCheck: a lightweight tool for random testing of Haskell programs - K. Claessen and J. Hughes (2011)
+### QuickCheck: a lightweight tool for random testing of Haskell programs - K. Claessen and J. Hughes (2000)
 
 Diese Arbeit stellt eine Bibliothek mit dem Namen QuickCheck und das Konzept des _property-based testing_ vor. Während bei einem Unit-Test normalerweise eine Eigenschaft für ein paar Beispieleingaben getestet wird, wird beim _property-based testing_ eine Eigenschaft sehr viele, zufällig generierte Eingaben getestet. Auf diese Weise kann eine Funktion ohne großen Aufwand für eine Vielzahl von Testfällen getestet werden. Die Erzeugung der Testeingaben wird durch die Struktur des Typs der Eingaben geleitet. Die Idee des _property-based testing_ hat inzwischen Einzug in fast alle stark getypten Programmiersprachen gehalten. So gibt es reimplementieren des QuickCheck-Ansatzes in Programmiersprachen wie Scala, Java, Swift und Objective-C.
 
